@@ -1,3 +1,7 @@
+#What is GifAppp?
+
+It is a react application that generates gifs using giphy api
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
