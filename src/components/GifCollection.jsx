@@ -1,6 +1,7 @@
 import GifElement from './GifElement';
 import styled from "styled-components";
 import { useFetchGifs } from '../hooks/useFetchGifs';
+import PropTypes from 'prop-types'
 
 function GifCollection({category}) {
     
@@ -43,5 +44,8 @@ const GifCollectionStyled = styled.div`
         font-size: 1.5rem;
     }
 `
+GifCollection.propTypes = {
+    category: PropTypes.string.isRequired
+}
 
 export default GifCollection;

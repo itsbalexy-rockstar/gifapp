@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests in <AddCategory /> Should show the correctly component 1`] = `
+<styled.form>
+  <form
+    action=""
+    onSubmit={[Function]}
+  >
+    <input
+      id="categoryValue"
+      onChange={[Function]}
+      placeholder="Search"
+      type="text"
+      value=""
+    />
+  </form>
+</styled.form>
+`;

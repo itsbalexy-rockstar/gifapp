@@ -11,18 +11,23 @@ const AddCategory = ({setCategories}) => {
     }
     const handleSubmit = (e) => {
         e.preventDefault()
-        setCategories((categories) => [inputValue, ...categories])
+        if(inputValue.trim().length > 2){
+            setCategories((categories) => [inputValue, ...categories])
+            setInputValue('')
+        }
     }
 
     return (
-      <AddCategoryStyled onSubmit={handleSubmit}>
-          <input 
-          placeholder='Search'
-          type="text" 
-          value={inputValue}
-          onChange={handleInputValue}
-          id='categoryValue'
-          />
+      <AddCategoryStyled>
+          <form action="" onSubmit={handleSubmit}>
+            <input 
+            placeholder='Search'
+            type="text" 
+            value={inputValue}
+            onChange={handleInputValue}
+            id='categoryValue'
+            />
+          </form>
       </AddCategoryStyled>
   );
 };

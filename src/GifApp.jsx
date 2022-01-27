@@ -3,8 +3,8 @@ import Navbar from "./components/Navbar";
 import { useState } from "react";
 import GifCollection from "./components/GifCollection";
 
-const GifApp = () => {
-  const [categories, setCategories] = useState([]);
+const GifApp = ({defaultCategories = []}) => {
+  const [categories, setCategories] = useState(defaultCategories);
   return (
     <>
       <Navbar setCategories={setCategories} />

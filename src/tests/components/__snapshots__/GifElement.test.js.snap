@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests in <GifElement /> Should show the correctly component 1`] = `
+<Fragment>
+  <ForwardRef(Card)
+    sx={
+      Object {
+        "maxWidth": 345,
+      }
+    }
+  >
+    <ForwardRef(CardActionArea)>
+      <ForwardRef(CardMedia)
+        alt="Un titulo"
+        className="img"
+        component="img"
+        height="140"
+        image="https://localhost/algo.png"
+      />
+      <ForwardRef(CardContent)>
+        <ForwardRef(Typography)
+          className="title"
+          component="div"
+          gutterBottom={true}
+          variant="h5"
+        >
+          Un titulo
+        </ForwardRef(Typography)>
+      </ForwardRef(CardContent)>
+    </ForwardRef(CardActionArea)>
+  </ForwardRef(Card)>
+</Fragment>
+`;

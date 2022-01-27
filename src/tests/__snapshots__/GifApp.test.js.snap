@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test in <GifApp /> Should show a categories list 1`] = `
+<Fragment>
+  <Navbar
+    setCategories={[Function]}
+  />
+  <ul>
+    <GifCollection
+      category="One Punch"
+      key="0"
+    />
+    <GifCollection
+      category="Hola"
+      key="1"
+    />
+    <GifCollection
+      category="Rick and Morty"
+      key="2"
+    />
+  </ul>
+</Fragment>
+`;
+
+exports[`Test in <GifApp /> Should show the correctly component 1`] = `
+<Fragment>
+  <Navbar
+    setCategories={[Function]}
+  />
+  <ul />
+</Fragment>
+`;

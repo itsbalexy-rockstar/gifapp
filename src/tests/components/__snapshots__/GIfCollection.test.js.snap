@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test in <GifCollection /> Should show items when useFetch loaded the data 1`] = `
+<styled.div>
+  <h1>
+    One Punch
+  </h1>
+  <div
+    className="collection animate__animated animate__bounceInDown"
+  >
+    <GifElement
+      id="ABC"
+      key="ABC"
+      title="Anything"
+      url="https://localhost/anything.jpg"
+    />
+  </div>
+</styled.div>
+`;
+
+exports[`Test in <GifCollection /> Should show the correctly component 1`] = `
+<styled.div>
+  <h1>
+    One Punch
+  </h1>
+  <div
+    className="collection animate__animated animate__bounceInDown"
+  />
+</styled.div>
+`;
